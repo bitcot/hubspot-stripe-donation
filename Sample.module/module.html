@@ -1,0 +1,62 @@
+{# <script src="https://checkout.stripe.com/checkout.js" class="stripe-button " data-key="pk_test_a9LxeLMoUiTEc0JBu1S50WXQ00jKeDaQAQ" data-name="Donation" 
+        data-label="DONATE" data-amount="9900"></script> #}
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="https://checkout.stripe.com/checkout.js"></script>
+<div id="main" role="main">
+
+    <section class="Sidebar_Section">
+
+      <span class="donate-alert" aria-expanded="false"></span>
+      <span class="donate-process" aria-expanded="false">processing your donation...</span>
+      <span class="donate-thanks" aria-expanded="false"></span>
+      
+      <h1>{% inline_text field="main_heading" value="{{ module.main_heading }}" %}</h1>
+      <p>{% inline_rich_text field="sub_heading" value="{{ module.sub_heading }}" %}</p>
+      
+      <form method="post" action="/" id="donate-form">
+
+       {# {% if module.select_amount == 20 %}
+          <input type="hidden" class="donate_amount" id="amt" value="{{ module.select_amount }}" />
+          <button id="donateNow">Donate $20 </button>
+        {% elif module.select_amount == 40 %}
+          <input type="hidden" class="donate_amount" id="amt" value="{{ module.select_amount }}" />
+          <button id="donateNow">Donate $40 </button>
+        {% elif module.select_amount == 50 %}
+          <input type="hidden" class="donate_amount" id="amt" value="{{ module.select_amount }}" />
+          <button id="donateNow">Donate $50 </button>
+        {% else %}
+          <input type="text" class="donate_amount" id="amt" value="" />
+          <button id="donateNow">Donate</button>
+        {% endif %} #}
+        
+        <select name="select_donate_amount" class="select_donate_amount" >
+          <option value=""> Please select amount </option>
+          <option value="20"> $20 </option>
+          <option value="40"> $40 </option>
+          <option value="50"> $50 </option>
+          <option value="0"> other </option>         
+        </select>
+        <input type="hidden" class="donate_amount" id="amt" value="" />
+        <button id="donateNow">Donate</button>
+        
+      </form>
+      
+      
+    </section>
+
+  </div>
+<script type="text/javascript">
+  
+    {% if module.test_mode %}
+      var publishable_key = "{{ module.test_publishable_key }}";
+      var secret_key = "{{ module.test_secret_key }}U2VjcmV0";
+    {% else %}
+	     var publishable_key = "{{ module.live_publishable_key }}";
+       var secret_key = "{{ module.live_secret_key }}U2VjcmV0";
+    {% endif %}
+    var popupheading = '{{ module.pop_up_heading }}';
+    var popupsubheading = '{{ module.pop_up_sub_heading }}';
+    var popupimage = '{{  module.pop_up_image.src }}';
+</script>
+
+  

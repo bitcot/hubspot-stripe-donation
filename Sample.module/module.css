@@ -1,0 +1,90 @@
+.donate-process,
+  .donate-thanks,
+  .donate-alert {
+    font-size: 1.2em;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    display: block;
+  }
+  .donate-process.show,
+  .donate-thanks.show,
+  .donate-alert.show {
+    opacity: 1;
+    height: auto;
+    visibility: visible;
+    padding: 1em;
+  }
+  .donate-alert.show {
+    background: #f6cfcf;
+  }
+  .donate-thanks.show {
+    background: #39d1b4;
+    color: #fff;
+  }
+
+#donateNow {
+    height: 36px;
+    padding: 8px 21px;
+    color: #FFF;
+    background-color: #32325d;
+    border: 1px solid transparent;
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    display: block;
+    transition: box-shadow 150ms ease;
+    margin: 10px auto 0;
+    border-radius: 4px;
+    font-size: 15px;
+  cursor: pointer;
+}
+
+#donateNow--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+#donateNow--invalid {
+  border-color: #fa755a;
+}
+
+#donateNow--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+
+
+body #main .donate_amount {
+    width: 100%;
+    float: left;
+    height: 36px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    margin-bottom: 10px;
+}
+
+body #main .select_donate_amount {
+    width: 100%;
+    float: left;
+    height: 40px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-shadow: none;
+}
+.Sidebar_Section {
+    background: #fafafa;
+    padding: 15px;
+    border: solid 1px #e7e7e7;
+    float: left;
+    width: 100%;
+}
+.Sidebar_Section h1 {
+  margin-top:0;
+  font-size: 20px;
+}
+.Sidebar_Section form{
+    float: left;
+    width: 100%;
+}
