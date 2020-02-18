@@ -1,0 +1,237 @@
+{
+  "live_publishable_key.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "live_publishable_key.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "live_publishable_key.label" : {
+    "message" : "Text",
+    "description" : null,
+    "placeholders" : null
+  },
+  "live_publishable_key.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "live_publishable_key.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "live_secret_key.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "live_secret_key.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "live_secret_key.label" : {
+    "message" : "Text",
+    "description" : null,
+    "placeholders" : null
+  },
+  "live_secret_key.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "live_secret_key.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "main_heading.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "main_heading.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "main_heading.label" : {
+    "message" : "Text",
+    "description" : null,
+    "placeholders" : null
+  },
+  "main_heading.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "main_heading.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Stripe Donation Button",
+    "description" : null,
+    "placeholders" : null
+  },
+  "pop_up_heading.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "pop_up_heading.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "pop_up_heading.label" : {
+    "message" : "Text",
+    "description" : null,
+    "placeholders" : null
+  },
+  "pop_up_heading.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "pop_up_heading.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "pop_up_image.default.alt" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "pop_up_image.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "pop_up_image.label" : {
+    "message" : "Image",
+    "description" : null,
+    "placeholders" : null
+  },
+  "pop_up_sub_heading.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "pop_up_sub_heading.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "pop_up_sub_heading.label" : {
+    "message" : "Text",
+    "description" : null,
+    "placeholders" : null
+  },
+  "pop_up_sub_heading.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "pop_up_sub_heading.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "select_amount.choices.value 1" : {
+    "message" : "Label 1",
+    "description" : null,
+    "placeholders" : null
+  },
+  "select_amount.choices.value 2" : {
+    "message" : "Label 2",
+    "description" : null,
+    "placeholders" : null
+  },
+  "sub_heading.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "sub_heading.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "sub_heading.label" : {
+    "message" : "Rich text",
+    "description" : null,
+    "placeholders" : null
+  },
+  "test_mode.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "test_mode.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "test_mode.label" : {
+    "message" : "Boolean",
+    "description" : null,
+    "placeholders" : null
+  },
+  "test_publishable_key.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "test_publishable_key.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "test_publishable_key.label" : {
+    "message" : "Text",
+    "description" : null,
+    "placeholders" : null
+  },
+  "test_publishable_key.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "test_publishable_key.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "test_secret_key.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "test_secret_key.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "test_secret_key.label" : {
+    "message" : "Text",
+    "description" : null,
+    "placeholders" : null
+  },
+  "test_secret_key.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "test_secret_key.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  }
+}

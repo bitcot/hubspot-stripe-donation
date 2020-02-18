@@ -1,0 +1,140 @@
+[ {
+  "id" : "2c808b4e-46e2-dd07-a56e-8b793093d959",
+  "name" : "main_heading",
+  "label" : "Main Heading",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Donate"
+}, {
+  "id" : "3e2e15c5-ef05-8bb7-ee19-b20b8fcd6756",
+  "name" : "sub_heading",
+  "label" : "Sub Heading",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<p><em>Enter an amount below, or use the quick links for a specific amount.</em></p>"
+}, {
+  "id" : "5bb96702-6feb-30c4-95a8-0b7f6277aa44",
+  "name" : "test_mode",
+  "label" : "Test Mode",
+  "required" : true,
+  "locked" : false,
+  "type" : "boolean",
+  "default" : false
+}, {
+  "id" : "d093b8a2-b67a-9285-11ab-59aef0dee748",
+  "name" : "test_publishable_key",
+  "label" : "Test Publishable key",
+  "required" : true,
+  "locked" : false,
+  "validation_regex" : "",
+  "visibility" : {
+    "controlling_field" : "5bb96702-6feb-30c4-95a8-0b7f6277aa44",
+    "controlling_value_regex" : "true",
+    "operator" : "EQUAL",
+    "access" : null,
+    "hidden_subfields" : null
+  },
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : null
+}, {
+  "id" : "8a97c7bb-75cf-5cea-048a-01f76f0e93ff",
+  "name" : "test_secret_key",
+  "label" : "Test Secret key",
+  "required" : true,
+  "locked" : false,
+  "validation_regex" : "",
+  "visibility" : {
+    "controlling_field" : "5bb96702-6feb-30c4-95a8-0b7f6277aa44",
+    "controlling_value_regex" : "true",
+    "operator" : "EQUAL",
+    "access" : null,
+    "hidden_subfields" : null
+  },
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : null
+}, {
+  "id" : "50c9c13b-9a7c-e48c-6275-4929d39b9212",
+  "name" : "live_publishable_key",
+  "label" : "Live Publishable key",
+  "required" : true,
+  "locked" : false,
+  "validation_regex" : "",
+  "visibility" : {
+    "controlling_field" : "5bb96702-6feb-30c4-95a8-0b7f6277aa44",
+    "controlling_value_regex" : "false",
+    "operator" : "EQUAL",
+    "access" : null,
+    "hidden_subfields" : null
+  },
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : null
+}, {
+  "id" : "237bab4f-065c-5c64-3cbc-9661cda9b86c",
+  "name" : "live_secret_key",
+  "label" : "Live Secret key",
+  "required" : true,
+  "locked" : false,
+  "validation_regex" : "",
+  "visibility" : {
+    "controlling_field" : "5bb96702-6feb-30c4-95a8-0b7f6277aa44",
+    "controlling_value_regex" : "false",
+    "operator" : "EQUAL",
+    "access" : null,
+    "hidden_subfields" : null
+  },
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : null
+}, {
+  "id" : "a44d056a-11e1-c855-3b19-8f28a4bf3246",
+  "name" : "pop_up_heading",
+  "label" : "Pop-up Heading",
+  "required" : true,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Donation for charities"
+}, {
+  "id" : "fddd1071-d85f-7f07-cd64-16cef38fb438",
+  "name" : "pop_up_sub_heading",
+  "label" : "Pop-up Sub heading",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : null
+}, {
+  "id" : "abd8f802-6cf1-e3db-eb31-72fb355ed3e0",
+  "name" : "pop_up_image",
+  "label" : "Pop-up Image",
+  "required" : true,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto_custom_max",
+    "src" : "https://cdn2.hubspot.net/hubfs/7029090/designmodo/common-files/img/content/coming_soon.png",
+    "alt" : "coming_soon",
+    "width" : 225,
+    "height" : 225,
+    "max_width" : 50,
+    "max_height" : 50
+  }
+} ]
